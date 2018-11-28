@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+.header {
+  height: 60px;
+  background-color: #24292E;
+  display: flex;
+}
+.header-container{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.header-container li {
+  padding: 0 20px;
+}
+.header-container input {
+  background-color: #3F4448;
+  border:none;
+  padding: 8px;
+  width: 273px;
+  border-radius: 3px;
+}

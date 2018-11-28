@@ -1,0 +1,19 @@
+.Repo {
+  animation: .5s repo;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+.Repo:hover {
+  border-bottom-color: black;
+}
+
+@keyframes repo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

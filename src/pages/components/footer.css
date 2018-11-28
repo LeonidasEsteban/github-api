@@ -1,0 +1,22 @@
+.footer {
+  padding: 20px 0 0 0;
+}
+
+.container {
+  padding: 25px 0;
+  margin: 0 auto;
+  max-width: 1024px;
+  border-top: 1px solid lightgray;
+  font-family: arial;
+  font-size: 12px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.banners {
+  display: flex;
+  justify-content: flex-start;
+}
+.banners li {
+  padding: 8px;
+}
